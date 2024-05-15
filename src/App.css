@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.AppHeader {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.SideMenuAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(241, 241, 241);
+}
+.SideMenu {
+  height: 100%;
+  width: 20%;
+}
+.SideMenuVertical {
+  height: 100%;
+}
+.PageContent {
+  padding-left: 12px;
+  width: 100vw;
+}
+
+.product-button {
+  margin: 2rem;
+}
+.product-card {
+  margin: 2rem;
+  max-width: 310px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+
+.logoutButton {
+  font-size: 20px; /* Increase the font size */
+  padding: 0px 10px; /* Increase the padding to increase button size */
+}
+
+.logoutButton:hover {
+  background-color: transparent; /* Remove hover background color */
+  color: inherit; /* Keep the color same as default */
+}
